@@ -2,10 +2,10 @@ fx_version 'cerulean'
 game 'gta5'
 
 client_scripts {
-    './dist/**'
+    './dist/client/**'
 }
 
 server_scripts {
-    './functions.lua',
-    '@mysql-async/lib/MySQL.lua'
+    './src/server/functions.lua',
+    './dist/server/**'
 }

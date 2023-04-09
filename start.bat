@@ -1,0 +1,1 @@
+start C:\nb-fxserver\server\FXServer.exe +exec server.cfg 

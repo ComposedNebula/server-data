@@ -1,0 +1,40 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(83, 83, 83);
+    height: 200px;
+    width: 350px;
+    border: 2px solid aliceblue;
+    border-radius: 7px;
+    display: grid;
+    grid-template-rows: repeat(3, 50px);
+    grid-template-columns: repeat(2, 175px);
+    grid-row-gap: 50px 30px;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    display: table;
+    margin: 5px;
+    border-color:black;
+    justify-content: center;
+    font-size: medium;
+    user-select: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+}

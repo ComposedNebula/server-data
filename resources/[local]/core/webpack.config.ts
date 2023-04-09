@@ -2,7 +2,7 @@ import path from "path";
 import { Configuration } from "webpack";
 
 const client: Configuration = {
-    entry: "../bank/src/client/index.ts",
+    entry: "../core/src/client/index.ts",
     module: {
         rules: [
             {
@@ -31,7 +31,7 @@ const client: Configuration = {
 };
 
 const server = {
-    entry: "../bank/src/server/index.ts",
+    entry: "../core/src/server/index.ts",
     module: {
         rules: [
             {

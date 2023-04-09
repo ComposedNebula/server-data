@@ -1,0 +1,3 @@
+RegisterCommand('longhud', () => {
+    emit('dotext')
+})

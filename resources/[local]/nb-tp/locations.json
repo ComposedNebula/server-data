@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Diamond Casino",
+        "desc": "The Diamond Casino and Resort",
+        "coords": {
+            "x": 925.783,
+            "y": 46.165,
+            "z": 80.906
+        }
+    },
+
+    {
+        "name": "Mission Row PD",
+        "desc": "LSPD Headquarters",
+        "coords": {
+            "x": 738,
+            "y": 183,
+            "z": 812
+        }
+    },
+
+    {
+        "name": "FIB",
+        "desc": "FIB Building",
+        "coords": {
+            "x": 76.661,
+            "y": 740.200,
+            "z": 45.097
+        }
+    }
+]
