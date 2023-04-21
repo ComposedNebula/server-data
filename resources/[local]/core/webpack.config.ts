@@ -60,4 +60,34 @@ const server = {
     watch: true,
 };
 
-module.exports = [client, server];
+const shared = {
+    entry: "../core/src/shared/index.ts",
+    module: {
+        rules: [
+            {
+                test: /\.(ts|js)?$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: [
+                            "@babel/preset-env",
+                            "@babel/preset-typescript",
+                        ],
+                    },
+                },
+            },
+        ],
+    },
+    resolve: {
+        extensions: [".ts", ".js"],
+    },
+    output: {
+        path: path.resolve(__dirname, "dist/shared"),
+        filename: "shared.[chunkhash].js",
+        clean: true,
+    },
+    watch: true,
+};
+
+module.exports = [client, server, shared];

@@ -8,3 +8,7 @@ server_scripts {
 client_scripts {
     "./dist/client/**"
 }
+
+shared_scripts {
+    "./dist/shared/**"
+}
